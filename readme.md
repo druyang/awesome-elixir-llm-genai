@@ -33,7 +33,7 @@ I'm a big fan of Elixir (as a MLE/Data Scientist). This is a list of resources t
 - [LLMOps MLOps](#llmops-mlops)
 - [Tooling](#tooling)
 - [Example Applications](#example-applications)
-- [Example Notebooks](#example-notebooks)
+- [Resources](#resources)
 
 ## LLM Clients
 
