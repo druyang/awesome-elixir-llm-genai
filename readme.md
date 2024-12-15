@@ -1,30 +1,78 @@
-# Awesome List Template
+<div align="center">
 
-This is an [awesome-list](https://github.com/sindresorhus/awesome) template with
-CI to run [awesome-lint](https://github.com/sindresorhus/awesome-lint) and
-[awesome_bot](https://github.com/dkhamsing/awesome_bot) to be compliant from the
-beginning.
+<!-- title -->
 
-## Usage
+<!--lint ignore no-dead-urls-->
 
-1. [generate a template of this repo](https://github.com/jthegedus/awesome-list-template/generate)
-2. run a find & replace of `YOUR_GITHUB_USER/YOUR_REPO` with your details
-3. edit `readme-template.md`
-   - update the h1 title
-   - update the subtitle
-   - update the description
-   - add img src, make it link to the site of the thing in the image.
-4. choose a CI template
-   - GitHub Action: move config folder from `repo-root/ci/.github/` to
-     `repo-root/.github`
-   - Circle CI: move config folder from `repo-root/ci/.circleci/*` to
-     `repo-root/.circleci/*`
-   - GitLab CI: move config file from `repo-root/ci/.gitlab-ci.yml` to the
-     `repo-root/.gitlab-ci.yml`
-5. run a find & replace `readme-template.md` to `readme.md` in the CI you chose
-5. delete this file
-6. rename `readme-template.md` file to `readme.md`
+# Awesome Elixir LLM/AI  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/druyang/awesome-elixir-llm-ai/actions/workflows/lint.yaml/badge.svg)](https://github.com/druyang/awesome-elixir-llm-ai/actions/workflows/lint.yaml)
+
+<!-- subtitle -->
+
+A (awesome) list of resources for building LLM/AI applications in Elixir. This list is focused on large language models (LLMs) and deep learning AI applications.
+
+<!-- image -->
+
+<a href="" target="_blank" rel="noopener noreferrer">
+  <img src="" />
+</a>
+
+<!-- description -->
+
+[Elixir](https://elixir-lang.org/) is a functional, concurrent, general-purpose programming language that runs on BEAM, the Erlang virtual machine. 
+With scalability and (near) realtime capabilities, Elixir has the potential to be useful for building LLM/AI applications.
+
+I'm a big fan of Elixir (as a MLE/Data Scientist). This is a list of resources that I've found useful as I combine my learning of Elixir and my LLM/AI background.
+
+</div>
+
+<!-- TOC -->
+
+## Contents
+
+- [LLM Clients](#llm-clients)
+- [LLMOps/MLOps](#llmops-mlops)
+- [Tooling](#tooling)
+- [Example Applications](#example-applications)
+- [Example Notebooks](#example-notebooks)
+
+## LLM Clients
+
+Libraries for wrapping LLM APIs.
+
+- [Elixir Langchain](https://github.com/brainlid/langchain) - integrate AI services and self-hosted models into an Elixir application, a port of the popular Langchain Python library.
+- [instructor_ex](https://github.com/thmsmlr/instructor_ex) - Structured, Ecto outputs with OpenAI (and OSS LLMs)
+- [OpenaiEx](https://github.com/cyberchitta/openai_ex) - a community-maintained OpenAI API client.
+- [LLMComposer](https://github.com/doofinder/llm_composer) - a streamlined way to build OpenAI and Ollama applications with auto-execution of functions 
+
+## LLMOps/MLOps
+
+- [Bumblebee](https://github.com/elixir-nx/bumblebee) - a library for serving and distributing models in Elixir, a counterpart to Hugging Face's Transformers.
+- [Bumblebee Model Harness](https://github.com/fly-apps/bumblebee-model-harness) - host AI models on (fly.io) GPUs 
+- [ortex](https://github.com/elixir-nx/ortex) - a wrapper around the ONNX Runtime 
+
+## Tooling
+
+- [Livebook](https://github.com/livebook-dev/livebook) - a web application for writing interactive and collaborative code notebooks, an Elixir alternative to Jupyter Notebook. 
+- [pgvector-elixir](https://github.com/pgvector/pgvector-elixir) - add vector embeddings to postgres via Ecto 
+- [Vecto](https://github.com/agoodway/vecto) - hybrid search with Ecto and pgvector
+
+
+## Example Applications
+- [Gettext LLM](https://github.com/paulsabou/gettext_llm) - translate all Gettext PO folders/files in your project using any LLM endpoint supported by langchain
+
+
+## Resources
+
+### Notebooks 
+
+- [Talking to OpenAI real-time with boombox](https://github.com/membraneframework/boombox/blob/master/boombox_examples_data/talk_to_llm.html)
+
+
 
 ## Contributing
 
-Contributions welcome!
+[Contributions of any kind welcome](contributing.md)! As tools for Elixir develop, I'll be updating this list and welcome any contributions.
+
+### Contributors
+
+[Thanks goes to these contributors](https://github.com/druyang/awesome-elixir-llm-ai/graphs/contributors)!
