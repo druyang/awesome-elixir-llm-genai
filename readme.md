@@ -4,11 +4,11 @@
 
 <!--lint ignore no-dead-urls-->
 
-# Awesome Elixir LLM/AI  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/druyang/awesome-elixir-llm-ai/actions/workflows/lint.yaml/badge.svg)](https://github.com/druyang/awesome-elixir-llm-ai/actions/workflows/lint.yaml)
+# Awesome Elixir LLM/GenAI  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/druyang/awesome-elixir-llm-ai/actions/workflows/lint.yaml/badge.svg)](https://github.com/druyang/awesome-elixir-llm-ai/actions/workflows/lint.yaml)
 
 <!-- subtitle -->
 
-A (awesome) list of resources for building LLM/AI applications in Elixir. This list is focused on large language models (LLMs) and deep learning AI applications.
+A (awesome) list of resources for building LLM/GenAI applications in Elixir. This list is focused on large language models (LLMs) and deep learning AI applications.
 
 <!-- image -->
 
@@ -30,7 +30,7 @@ I'm a big fan of Elixir (as a MLE/Data Scientist). This is a list of resources t
 ## Contents
 
 - [LLM Clients](#llm-clients)
-- [LLMOps/MLOps](#llmops-mlops)
+- [LLMOps MLOps](#llmops-mlops)
 - [Tooling](#tooling)
 - [Example Applications](#example-applications)
 - [Example Notebooks](#example-notebooks)
@@ -39,35 +39,31 @@ I'm a big fan of Elixir (as a MLE/Data Scientist). This is a list of resources t
 
 Libraries for wrapping LLM APIs.
 
-- [Elixir Langchain](https://github.com/brainlid/langchain) - integrate AI services and self-hosted models into an Elixir application, a port of the popular Langchain Python library.
-- [instructor_ex](https://github.com/thmsmlr/instructor_ex) - Structured, Ecto outputs with OpenAI (and OSS LLMs)
-- [OpenaiEx](https://github.com/cyberchitta/openai_ex) - a community-maintained OpenAI API client.
-- [LLMComposer](https://github.com/doofinder/llm_composer) - a streamlined way to build OpenAI and Ollama applications with auto-execution of functions 
+- [Elixir Langchain](https://github.com/brainlid/langchain) - Integrate AI services and self-hosted models into an Elixir application, a port of the popular Langchain Python library.
+- [instructor_ex](https://github.com/thmsmlr/instructor_ex) - Structured, Ecto outputs with OpenAI (and OSS LLMs).
+- [OpenaiEx](https://github.com/cyberchitta/openai_ex) - A community-maintained OpenAI API client.
+- [LLMComposer](https://github.com/doofinder/llm_composer) - A streamlined way to build OpenAI and Ollama applications with auto-execution of functions.
 
-## LLMOps/MLOps
+## LLMOps MLOps
 
-- [Bumblebee](https://github.com/elixir-nx/bumblebee) - a library for serving and distributing models in Elixir, a counterpart to Hugging Face's Transformers.
-- [Bumblebee Model Harness](https://github.com/fly-apps/bumblebee-model-harness) - host AI models on (fly.io) GPUs 
-- [ortex](https://github.com/elixir-nx/ortex) - a wrapper around the ONNX Runtime 
+- [Bumblebee](https://github.com/elixir-nx/bumblebee) - A library for serving and distributing models in Elixir, a counterpart to Hugging Face's Transformers.
+- [Bumblebee Model Harness](https://github.com/fly-apps/bumblebee-model-harness) - Host AI models on (fly.io) GPUs.
+- [ortex](https://github.com/elixir-nx/ortex) - A wrapper around the ONNX Runtime.
 
 ## Tooling
 
-- [Livebook](https://github.com/livebook-dev/livebook) - a web application for writing interactive and collaborative code notebooks, an Elixir alternative to Jupyter Notebook. 
-- [pgvector-elixir](https://github.com/pgvector/pgvector-elixir) - add vector embeddings to postgres via Ecto 
-- [Vecto](https://github.com/agoodway/vecto) - hybrid search with Ecto and pgvector
-
+- [Livebook](https://github.com/livebook-dev/livebook) - A web application for writing interactive and collaborative code notebooks, an Elixir alternative to Jupyter Notebook.
+- [pgvector-elixir](https://github.com/pgvector/pgvector-elixir) - Add vector embeddings to postgres via Ecto.
+- [Vecto](https://github.com/agoodway/vecto) - Hybrid search with Ecto and pgvector.
 
 ## Example Applications
-- [Gettext LLM](https://github.com/paulsabou/gettext_llm) - translate all Gettext PO folders/files in your project using any LLM endpoint supported by langchain
-
+- [Gettext LLM](https://github.com/paulsabou/gettext_llm) - Translate all Gettext PO folders/files in your project using any LLM endpoint supported by langchain.
 
 ## Resources
 
 ### Notebooks 
 
 - [Talking to OpenAI real-time with boombox](https://github.com/membraneframework/boombox/blob/master/boombox_examples_data/talk_to_llm.html)
-
-
 
 ## Contributing
 
