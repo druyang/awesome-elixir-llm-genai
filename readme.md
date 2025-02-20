@@ -32,10 +32,11 @@ I'm a big fan of Elixir (as a MLE/Data Scientist). This is a list of resources t
 - [LLM Clients](#llm-clients)
 - [LLMOps MLOps](#llmops-mlops)
 - [Tooling](#tooling)
+- [Audio and Speech](#audio-and-speech)
 - [Example Applications](#example-applications)
 - [Resources](#resources)
 
-## LLM Clients
+## LLM SDKs and Clients
 
 Libraries for wrapping LLM APIs.
 
@@ -43,6 +44,7 @@ Libraries for wrapping LLM APIs.
 - [instructor_ex](https://github.com/thmsmlr/instructor_ex) - Structured, Ecto outputs with OpenAI (and OSS LLMs).
 - [OpenaiEx](https://github.com/cyberchitta/openai_ex) - A community-maintained OpenAI API client.
 - [LLMComposer](https://github.com/doofinder/llm_composer) - A streamlined way to build OpenAI and Ollama applications with auto-execution of functions.
+- [Jido](https://github.com/agentjido/jido) - A framework for building distributed agent systems in Elixir.
 
 ## LLMOps MLOps
 
@@ -50,11 +52,16 @@ Libraries for wrapping LLM APIs.
 - [Bumblebee Model Harness](https://github.com/fly-apps/bumblebee-model-harness) - Host AI models on (fly.io) GPUs.
 - [ortex](https://github.com/elixir-nx/ortex) - A wrapper around the ONNX Runtime.
 
-## Tooling
+## Tooling and Utilities
 
 - [Livebook](https://github.com/livebook-dev/livebook) - A web application for writing interactive and collaborative code notebooks, an Elixir alternative to Jupyter Notebook.
 - [pgvector-elixir](https://github.com/pgvector/pgvector-elixir) - Add vector embeddings to postgres via Ecto.
 - [Vecto](https://github.com/agoodway/vecto) - Hybrid search with Ecto and pgvector.
+- [TextChunker](https://github.com/revelrylabs/text_chunker_ex) - A semantic text chunker with langchain-style chunking. 
+
+## Audio and Speech
+
+- [Cool Whisper Server](https://github.com/dailydaniel/cool-whisper-server) - OpenAI compatible Elixir-based HTTP server for running inference on audio files 
 
 ## Example Applications
 - [Gettext LLM](https://github.com/paulsabou/gettext_llm) - Translate all Gettext PO folders/files in your project using any LLM endpoint supported by langchain.
