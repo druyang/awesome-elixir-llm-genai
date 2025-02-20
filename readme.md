@@ -29,9 +29,9 @@ I'm a big fan of Elixir (as a MLE/Data Scientist). This is a list of resources t
 
 ## Contents
 
-- [LLM Clients](#llm-clients)
+- [LLM SDKs and Clients](#llm-sdks-and-clients)
 - [LLMOps MLOps](#llmops-mlops)
-- [Tooling](#tooling)
+- [Tooling and Utilities](#tooling-and-utilities)
 - [Audio and Speech](#audio-and-speech)
 - [Example Applications](#example-applications)
 - [Resources](#resources)
@@ -61,7 +61,7 @@ Libraries for wrapping LLM APIs.
 
 ## Audio and Speech
 
-- [Cool Whisper Server](https://github.com/dailydaniel/cool-whisper-server) - OpenAI compatible Elixir-based HTTP server for running inference on audio files 
+- [Cool Whisper Server](https://github.com/dailydaniel/cool-whisper-server) - OpenAI compatible Elixir-based HTTP server for running inference on audio files.
 
 ## Example Applications
 - [Gettext LLM](https://github.com/paulsabou/gettext_llm) - Translate all Gettext PO folders/files in your project using any LLM endpoint supported by langchain.
