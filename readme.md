@@ -58,6 +58,7 @@ Libraries for wrapping LLM APIs.
 - [pgvector-elixir](https://github.com/pgvector/pgvector-elixir) - Add vector embeddings to postgres via Ecto.
 - [Vecto](https://github.com/agoodway/vecto) - Hybrid search with Ecto and pgvector.
 - [TextChunker](https://github.com/revelrylabs/text_chunker_ex) - A semantic text chunker with langchain-style chunking. 
+- [PythonX](https://github.com/cocoa-xu/pythonx) - Run Python code from Elixir. Possible to run Hugging Face models ([example](https://samrat.me/running-ml-models-in-elixir-using-pythonx/))
 
 ## Audio and Speech
 
