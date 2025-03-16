@@ -37,7 +37,6 @@ I'm a big fan of Elixir (as a MLE/Data Scientist). This is a list of resources t
   - [Notebooks](#notebooks)
   - [Videos](#videos)
   - [Example Applications](#example-applications)
-- [Contributing](#contributing)
 
 ## LLM SDKs and Clients
 
@@ -85,7 +84,5 @@ Libraries for wrapping LLM APIs.
 ## Contributing
 
 [Contributions of any kind welcome](contributing.md)! As tools for Elixir develop, I'll be updating this list and welcome any contributions.
-
-### Contributors
 
 [Thanks goes to these contributors](https://github.com/druyang/awesome-elixir-llm-ai/graphs/contributors)!
