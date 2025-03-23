@@ -59,7 +59,9 @@ Libraries for wrapping LLM APIs.
 
 - [Livebook](https://github.com/livebook-dev/livebook) - A web application for writing interactive and collaborative code notebooks, an Elixir alternative to Jupyter Notebook.
 - [pgvector-elixir](https://github.com/pgvector/pgvector-elixir) - Add vector embeddings to postgres via Ecto.
+- [sqlite_vec](https://github.com/joelpaulkoch/sqlite_vec) - Add vector embeddings to sqlite via Ecto.
 - [Vecto](https://github.com/agoodway/vecto) - Hybrid search with Ecto and pgvector.
+- [rag](https://github.com/bitcrowd/rag) - Retrieval Augmented Generation in Elixir.
 - [TextChunker](https://github.com/revelrylabs/text_chunker_ex) - A semantic text chunker with langchain-style chunking. 
 - [PythonX](https://github.com/cocoa-xu/pythonx) - Run Python code from Elixir. Possible to run Hugging Face models ([example](https://samrat.me/running-ml-models-in-elixir-using-pythonx/))
 - [MCP Hex Server](https://hex-mcp.9elements.com/) - A MCP server for Elixir Hex packages.
