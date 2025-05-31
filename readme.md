@@ -43,6 +43,7 @@ I'm a big fan of Elixir (as a MLE/Data Scientist). This is a list of resources t
 Libraries for wrapping LLM APIs.
 
 - [Elixir Langchain](https://github.com/brainlid/langchain) - Integrate AI services and self-hosted models into an Elixir application, a port of the popular Langchain Python library.
+- [InstructorLite](https://github.com/martosaur/instructor_lite) - Structured outputs for LLMs in Elixir.
 - [instructor_ex](https://github.com/thmsmlr/instructor_ex) - Structured, Ecto outputs with OpenAI (and OSS LLMs).
 - [OpenaiEx](https://github.com/cyberchitta/openai_ex) - A community-maintained OpenAI API client.
 - [LLMComposer](https://github.com/doofinder/llm_composer) - A streamlined way to build OpenAI and Ollama applications with auto-execution of functions.
@@ -65,6 +66,7 @@ Libraries for wrapping LLM APIs.
 - [TextChunker](https://github.com/revelrylabs/text_chunker_ex) - A semantic text chunker with langchain-style chunking. 
 - [PythonX](https://github.com/cocoa-xu/pythonx) - Run Python code from Elixir. Possible to run Hugging Face models ([example](https://samrat.me/running-ml-models-in-elixir-using-pythonx/))
 - [MCP Hex Server](https://hex-mcp.9elements.com/) - A MCP server for Elixir Hex packages.
+- [Tidewave Phoenix](https://github.com/tidewave-ai/tidewave_phoenix) - Tidewave for Phoenix, introspection/integration of a phoenix web app for AI coding tools over MCP.
 
 ## Audio and Speech
 
@@ -82,6 +84,7 @@ Libraries for wrapping LLM APIs.
 
 ### Example Applications
 - [Gettext LLM](https://github.com/paulsabou/gettext_llm) - Translate all Gettext PO folders/files in your project using any LLM endpoint supported by langchain.
+- [Why Elixir/OTP doesn't need an Agent framework (InstructorLite Example)](https://goto-code.com/blog/elixir-otp-for-llms/) - Uses InstructorLite to show why Elixir does not need a wrapping agent framework (opinion).
 
 ## Contributing
 
