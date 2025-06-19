@@ -50,6 +50,7 @@ Libraries for wrapping LLM APIs.
 - [Jido](https://github.com/agentjido/jido) - A framework for building distributed agent systems in Elixir.
 - [AshAi](https://github.com/ash-project/ash_ai) - A library for building OpenAI style LLM driven applications with Ash.
 - [Gemini_ex](https://github.com/nshkrdotcom/gemini_ex) - A Gemini and VertexAI Elixir client.
+- [ExLLM](https://github.com/azmaveth/ex_llm) - All-in-one LLM library for Elixir with unified provider interface and structured outputs (14 providers with access to 300+ models).
 
 ## LLMOps MLOps
 
