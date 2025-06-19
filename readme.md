@@ -49,6 +49,7 @@ Libraries for wrapping LLM APIs.
 - [LLMComposer](https://github.com/doofinder/llm_composer) - A streamlined way to build OpenAI and Ollama applications with auto-execution of functions.
 - [Jido](https://github.com/agentjido/jido) - A framework for building distributed agent systems in Elixir.
 - [AshAi](https://github.com/ash-project/ash_ai) - A library for building OpenAI style LLM driven applications with Ash.
+- [Gemini_ex](https://github.com/nshkrdotcom/gemini_ex) - A Gemini and VertexAI Elixir client.
 
 ## LLMOps MLOps
 
