@@ -122,7 +122,6 @@ Development tools, LLM evaluation, and other utilities.
 - (Feb 2024) - [Smarter Apps with Ash and GenAI](https://www.youtube.com/watch?v=10VBTcN8gAo)
 - (2025) - [Whisperer: An Elixir-Based Multi-Agent Workflow Framework](https://www.elixirconf.eu/talks/whisperer-an-elixir-based-multi-agent-workflow-framework/) - ElixirConf EU 2025 talk on building OTP-native multi-agent workflows.
 - (2025) - [Full-Stack AI with Elixir: Simplicity and Scale to Millions of Customers](https://elixirconf.com/talks/full-stack-ai-with-elixir-simplicity-and-scale-to-millions-of-customers/) - ElixirConf US 2025 talk from CloudWalk on running multi-agent LLM chat and GPU image moderation in production.
-- (2025) - [The AI Thread at ElixirConf EU 2025](https://medium.com/whatnot-engineering/the-ai-thread-at-elixirconf-eu-2025-highlights-from-krak%C3%B3w-e27ad1d1ec00) - Whatnot Engineering's recap of the AI track at ElixirConf EU 2025.
 
 ### Example Applications
 
