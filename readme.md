@@ -87,7 +87,6 @@ Vector stores, retrieval, and Retrieval Augmented Generation utilities.
 - [rag](https://github.com/bitcrowd/rag) - Retrieval Augmented Generation in Elixir.
 - [sqlite_vec](https://github.com/joelpaulkoch/sqlite_vec) - Add vector embeddings to sqlite via Ecto.
 - [TextChunker](https://github.com/revelrylabs/text_chunker_ex) - A semantic text chunker with langchain-style chunking.
-- [Vecto](https://github.com/agoodway/vecto) - Hybrid search with Ecto and pgvector.
 - [Vettore](https://github.com/elchemista/vettore) - High-performance in-memory vector database built with Rustler, supporting cosine, euclidean, dot product, and HNSW similarity search with MMR reranking.
 
 ## MCP and Integrations
