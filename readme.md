@@ -30,6 +30,7 @@ I'm a big fan of Elixir (as a MLE/Data Scientist). This is a list of resources t
 ## Contents
 
 - [LLM SDKs and Clients](#llm-sdks-and-clients)
+- [Agent Frameworks](#agent-frameworks)
 - [LLMOps MLOps](#llmops-mlops)
 - [Tooling and Utilities](#tooling-and-utilities)
 - [Audio and Speech](#audio-and-speech)
@@ -51,6 +52,21 @@ Libraries for wrapping LLM APIs.
 - [AshAi](https://github.com/ash-project/ash_ai) - A library for building OpenAI style LLM driven applications with Ash.
 - [Gemini_ex](https://github.com/nshkrdotcom/gemini_ex) - A Gemini and VertexAI Elixir client.
 - [ExLLM](https://github.com/azmaveth/ex_llm) - All-in-one LLM library for Elixir with unified provider interface and structured outputs (14 providers with access to 300+ models).
+- [Anthropix](https://github.com/lebrunel/anthropix) - Unofficial Anthropic Claude API client with tool use, prompt caching, message batching, and streaming.
+- [Ollama](https://github.com/lebrunel/ollama-ex) - A nifty little library for working with Ollama in Elixir.
+- [Omni](https://github.com/aaronrussell/omni) - Universal Elixir client for LLM APIs with streaming text generation, tool use, and structured output across providers.
+- [ReqLLM](https://github.com/agentjido/req_llm) - A Req plugin for calling 18+ LLM providers with a unified streaming and non-streaming interface, inspired by Vercel's AI SDK.
+- [ClaudeCode SDK](https://github.com/guess/claude_code) - The idiomatic Elixir SDK for building AI agents on top of the Claude Code CLI, with OTP sessions, streaming, and in-process tools.
+
+## Agent Frameworks
+
+Libraries focused on orchestrating multi-step LLM agents and tool use.
+
+- [Alloy](https://github.com/alloy-ex/alloy) - Minimal, OTP-native agent harness focused on the completion-tool-call loop, with multi-provider support and supervised GenServer agents.
+- [Sagents](https://github.com/sagents-ai/sagents) - Build interactive AI agents with OTP supervision, middleware, human-in-the-loop approvals, sub-agent delegation, and a LiveView debugger (built on Elixir LangChain).
+- [Whisperer](https://github.com/Monitor-Lizzard/whisperer) - Unopinionated, OTP-based framework for sequencing and orchestrating multi-agent AI workflows in Elixir.
+- [Legion](https://github.com/dimamik/legion) - Elixir framework for building AI agents that write and execute sandboxed Elixir code instead of making function calls.
+- [OpenAI Agents Elixir](https://github.com/rwdaigle/openai-agents-elixir) - Idiomatic Elixir framework for building agentic workflows on OpenAI's Responses API, modeled after OpenAI's Python Agents library.
 
 ## LLMOps MLOps
 
@@ -64,11 +80,17 @@ Libraries for wrapping LLM APIs.
 - [pgvector-elixir](https://github.com/pgvector/pgvector-elixir) - Add vector embeddings to postgres via Ecto.
 - [sqlite_vec](https://github.com/joelpaulkoch/sqlite_vec) - Add vector embeddings to sqlite via Ecto.
 - [Vecto](https://github.com/agoodway/vecto) - Hybrid search with Ecto and pgvector.
+- [Vettore](https://github.com/elchemista/vettore) - High-performance in-memory vector database built with Rustler, supporting cosine, euclidean, dot product, and HNSW similarity search with MMR reranking.
+- [Qdrant](https://github.com/marinac-dev/qdrant) - An Elixir client for the Qdrant vector similarity search engine.
 - [rag](https://github.com/bitcrowd/rag) - Retrieval Augmented Generation in Elixir.
-- [TextChunker](https://github.com/revelrylabs/text_chunker_ex) - A semantic text chunker with langchain-style chunking. 
-- [PythonX](https://github.com/cocoa-xu/pythonx) - Run Python code from Elixir. Possible to run Hugging Face models ([example](https://samrat.me/running-ml-models-in-elixir-using-pythonx/))
+- [TextChunker](https://github.com/revelrylabs/text_chunker_ex) - A semantic text chunker with langchain-style chunking.
+- [Tribunal](https://github.com/georgeguimaraes/tribunal) - LLM evaluation and testing framework with deterministic and LLM-as-judge assertions for hallucinations, toxicity, and PII.
+- [PythonX](https://github.com/cocoa-xu/pythonx) - Run Python code from Elixir. Possible to run Hugging Face models ([example](https://samrat.me/running-ml-models-in-elixir-using-pythonx/)).
 - [MCP Hex Server](https://hex-mcp.9elements.com/) - A MCP server for Elixir Hex packages.
 - [Tidewave Phoenix](https://github.com/tidewave-ai/tidewave_phoenix) - Tidewave for Phoenix, introspection/integration of a phoenix web app for AI coding tools over MCP.
+- [Hermes MCP](https://github.com/cloudwalk/hermes-mcp) - High-performance Elixir SDK for the Model Context Protocol, with full client and server implementations.
+- [Anubis MCP](https://github.com/zoedsoupe/anubis-mcp) - Actively maintained Elixir MCP SDK (continuation of hermes-mcp) for building MCP clients and servers with HTTP and SSE transports.
+- [Phantom MCP](https://github.com/dbernheisel/phantom_mcp) - An MCP server framework for Elixir Plug with Phoenix integration and stdio support for clients like Claude Desktop.
 
 ## Audio and Speech
 
@@ -83,6 +105,9 @@ Libraries for wrapping LLM APIs.
 ### Videos
 
 - (Feb 2024) - [Smarter Apps with Ash and GenAI](https://www.youtube.com/watch?v=10VBTcN8gAo)
+- (2025) - [Whisperer: An Elixir-Based Multi-Agent Workflow Framework](https://www.elixirconf.eu/talks/whisperer-an-elixir-based-multi-agent-workflow-framework/) - ElixirConf EU 2025 talk on building OTP-native multi-agent workflows.
+- (2025) - [Full-Stack AI with Elixir: Simplicity and Scale to Millions of Customers](https://elixirconf.com/talks/full-stack-ai-with-elixir-simplicity-and-scale-to-millions-of-customers/) - ElixirConf US 2025 talk from CloudWalk on running multi-agent LLM chat and GPU image moderation in production.
+- (2025) - [The AI Thread at ElixirConf EU 2025](https://medium.com/whatnot-engineering/the-ai-thread-at-elixirconf-eu-2025-highlights-from-krak%C3%B3w-e27ad1d1ec00) - Whatnot Engineering's recap of the AI track at ElixirConf EU 2025.
 
 ### Example Applications
 - [Gettext LLM](https://github.com/paulsabou/gettext_llm) - Translate all Gettext PO folders/files in your project using any LLM endpoint supported by langchain.
