@@ -122,7 +122,7 @@ Development tools, LLM evaluation, and other utilities.
 
 ### Notebooks
 
-- [Talking to OpenAI real-time with boombox](https://github.com/membraneframework/boombox/blob/master/boombox_examples_data/talk_to_llm.html)
+- [Talking to OpenAI real-time with boombox](https://github.com/membraneframework/boombox/blob/master/examples/data/talk_to_llm.html)
 
 ### Videos
 
