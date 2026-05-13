@@ -34,6 +34,7 @@ I'm a big fan of Elixir (as a MLE/Data Scientist). This is a list of resources t
 - [Model Serving and Inference](#model-serving-and-inference)
 - [Vector Databases and RAG](#vector-databases-and-rag)
 - [MCP and Integrations](#mcp-and-integrations)
+- [AI Coding Assistants and Skills](#ai-coding-assistants-and-skills)
 - [Evaluation and Utilities](#evaluation-and-utilities)
 - [Audio and Speech](#audio-and-speech)
 - [Resources](#resources)
@@ -98,6 +99,12 @@ Model Context Protocol servers and IDE/tool integrations.
 - [MCP Hex Server](https://hex-mcp.9elements.com/) - A MCP server for Elixir Hex packages.
 - [Phantom MCP](https://github.com/dbernheisel/phantom_mcp) - An MCP server framework for Elixir Plug with Phoenix integration and stdio support for clients like Claude Desktop.
 - [Tidewave Phoenix](https://github.com/tidewave-ai/tidewave_phoenix) - Tidewave for Phoenix, introspection/integration of a phoenix web app for AI coding tools over MCP.
+
+## AI Coding Assistants and Skills
+
+Plugins, skills, and agent configurations for AI coding tools targeting Elixir/Phoenix development.
+
+- [claude-elixir-phoenix](https://github.com/oliver-kriska/claude-elixir-phoenix) - Claude Code plugin for Elixir/Phoenix that orchestrates specialist agents for planning, implementation, and review, with auto-loading skills for LiveView, Ecto, OTP, and Tidewave MCP integration.
 
 ## Evaluation and Utilities
 
