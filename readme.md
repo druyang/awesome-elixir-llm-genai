@@ -104,6 +104,7 @@ Model Context Protocol servers and IDE/tool integrations.
 
 Plugins, skills, and agent configurations for AI coding tools targeting Elixir/Phoenix development.
 
+- [claude-code-elixir](https://github.com/georgeguimaraes/claude-code-elixir) - Claude Code plugin marketplace for Elixir/Phoenix with language server integration, formatting and compilation checks, and skills covering BEAM, Phoenix, Ecto, and OTP.
 - [claude-elixir-phoenix](https://github.com/oliver-kriska/claude-elixir-phoenix) - Claude Code plugin for Elixir/Phoenix that orchestrates specialist agents for planning, implementation, and review, with auto-loading skills for LiveView, Ecto, OTP, and Tidewave MCP integration.
 
 ## Evaluation and Utilities
