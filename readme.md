@@ -52,9 +52,11 @@ Libraries for calling LLM provider APIs and generating structured outputs.
 - [InstructorLite](https://github.com/martosaur/instructor_lite) - Structured outputs for LLMs in Elixir.
 - [instructor_ex](https://github.com/thmsmlr/instructor_ex) - Structured, Ecto outputs with OpenAI (and OSS LLMs).
 - [LLMComposer](https://github.com/doofinder/llm_composer) - A streamlined way to build OpenAI and Ollama applications with auto-execution of functions.
+- [Mistral](https://github.com/rodloboz/mistral) - An Elixir client for the Mistral AI API.
 - [Ollama](https://github.com/lebrunel/ollama-ex) - A nifty little library for working with Ollama in Elixir.
 - [Omni](https://github.com/aaronrussell/omni) - Universal Elixir client for LLM APIs with streaming text generation, tool use, and structured output across providers.
 - [OpenaiEx](https://github.com/cyberchitta/openai_ex) - A community-maintained OpenAI API client.
+- [OpenRouter SDK](https://github.com/sf-voice/openrouter-elixir-sdk) - Unofficial Elixir SDK for OpenRouter with chat, embeddings, speech, and transcription support.
 - [ReqLLM](https://github.com/agentjido/req_llm) - A Req plugin for calling 18+ LLM providers with a unified streaming and non-streaming interface, inspired by Vercel's AI SDK.
 
 ## Agent Frameworks
@@ -89,6 +91,7 @@ Vector stores, retrieval, and Retrieval Augmented Generation utilities.
 - [sqlite_vec](https://github.com/joelpaulkoch/sqlite_vec) - Add vector embeddings to sqlite via Ecto.
 - [TextChunker](https://github.com/revelrylabs/text_chunker_ex) - A semantic text chunker with langchain-style chunking.
 - [Vettore](https://github.com/elchemista/vettore) - High-performance in-memory vector database built with Rustler, supporting cosine, euclidean, dot product, and HNSW similarity search with MMR reranking.
+- [weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex) - A modern Elixir client for the Weaviate vector database with collections, batch operations, GraphQL queries, and vector search.
 
 ## MCP and Integrations
 
@@ -111,6 +114,8 @@ Plugins, skills, and agent configurations for AI coding tools targeting Elixir/P
 
 Development tools, LLM evaluation, and other utilities.
 
+- [json_remedy](https://github.com/nshkrdotcom/json_remedy) - Fast Elixir library for repairing malformed JSON via binary pattern matching, particularly useful for LLM outputs.
+- [Langfuse](https://github.com/manusajith/langfuse) - A community Elixir SDK for Langfuse with LLM observability, tracing, and prompt management.
 - [Livebook](https://github.com/livebook-dev/livebook) - A web application for writing interactive and collaborative code notebooks, an Elixir alternative to Jupyter Notebook.
 - [PythonX](https://github.com/cocoa-xu/pythonx) - Run Python code from Elixir. Possible to run Hugging Face models ([example](https://samrat.me/running-ml-models-in-elixir-using-pythonx/)).
 - [Tribunal](https://github.com/georgeguimaraes/tribunal) - LLM evaluation and testing framework with deterministic and LLM-as-judge assertions for hallucinations, toxicity, and PII.
@@ -118,6 +123,7 @@ Development tools, LLM evaluation, and other utilities.
 ## Audio and Speech
 
 - [Cool Whisper Server](https://github.com/dailydaniel/cool-whisper-server) - OpenAI compatible Elixir-based HTTP server for running inference on audio files.
+- [Hipcall TTS](https://github.com/hipcall/hipcall_tts) - Multi-provider Elixir Text-to-Speech client supporting OpenAI, AWS Polly, and ElevenLabs.
 
 ## Resources
 
