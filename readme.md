@@ -102,9 +102,14 @@ Model Context Protocol servers and IDE/tool integrations.
 
 ## AI Coding Assistants and Skills
 
-Plugins, skills, and agent configurations for AI coding tools targeting Elixir/Phoenix development.
+Plugins, skills, agent configurations, and verification tooling for AI coding tools targeting Elixir/Phoenix development.
 
 - [claude-elixir-phoenix](https://github.com/oliver-kriska/claude-elixir-phoenix) - Claude Code plugin for Elixir/Phoenix that orchestrates specialist agents for planning, implementation, and review, with auto-loading skills for LiveView, Ecto, OTP, and Tidewave MCP integration.
+- [pi-elixir](https://github.com/elixir-vibe/pi-elixir) - Extension for the pi coding agent that gives it a persistent BEAM eval control plane, ExAST structural edits, and verification through ExDNA and Reach.
+- [VibeKit](https://github.com/elixir-vibe/vibe_kit) - Igniter installer that wires Credo, Dialyzer, ExSlop, ExDNA, and Reach into a single mix ci gate for AI-assisted Elixir projects.
+- [ExSlop](https://github.com/elixir-vibe/ex_slop) - Credo plugin with 40 checks for patterns LLMs produce but experienced Elixir developers don't: blanket rescues, narrator docs, obvious comments, anti-idiomatic Enum usage, N+1 queries, and more.
+- [ExDNA](https://github.com/elixir-vibe/ex_dna) - AST-based clone detector that catches the duplicated code agents tend to produce, with a zero-clone CI budget, extract-function/macro/behaviour suggestions, JSON/SARIF output, and LSP diagnostics.
+- [Reach](https://github.com/elixir-vibe/reach) - Program dependence graph for BEAM projects that verifies agent changes with changed-code PR checks, architecture boundary policy, taint tracing from user input to sinks, and JSON output for automation.
 
 ## Evaluation and Utilities
 
